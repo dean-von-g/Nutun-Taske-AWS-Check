@@ -1,0 +1,118 @@
+{
+  "title": "Amazon Connect Optimization Scorecard",
+  "scale": {
+    "min": 0,
+    "max": 5,
+    "labels": {
+      "0": "No / Not in place",
+      "5": "Yes / Fully in place"
+    }
+  },
+  "sections": [
+    {
+      "title": "Channels & Customer Experience",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Are all your contact channels are enabled and routed based on availability or preferences?"
+        },
+        {
+          "id": "q2",
+          "text": "Are customers able to self-serve through Lex bots or conversational IVR?"
+        },
+        {
+          "id": "q3",
+          "text": "Do contact flows personalize experiences using CRM data, history, or context?"
+        },
+        {
+          "id": "q4",
+          "text": "Are callback and queue management features actively used?"
+        }
+      ]
+    },
+    {
+      "title": "AI & Automation",
+      "questions": [
+        {
+          "id": "q5",
+          "text": "Is Contact Lens enabled for sentiment analysis, transcripts, and compliance monitoring?"
+        },
+        {
+          "id": "q6",
+          "text": "Do agents use real-time AI assistance (Amazon Q in Connect) for guidance or knowledge?"
+        },
+        {
+          "id": "q7",
+          "text": "Are your post-contact summaries and sentiment analysis integrated with your CRM?"
+        },
+        {
+          "id": "q8",
+          "text": "Is automated contact categorization or tagging used to reduce manual work?"
+        }
+      ]
+    },
+    {
+      "title": "Agent Experience & Efficiency",
+      "questions": [
+        {
+          "id": "q9",
+          "text": "Are agents using the unified workspace (threaded views, screen pops, unified profiles)?"
+        },
+        {
+          "id": "q10",
+          "text": "Do agents use screen recording and screen sharing appropriately?"
+        },
+        {
+          "id": "q11",
+          "text": "Are tasks automated and managed via Amazon Connect Tasks?"
+        },
+        {
+          "id": "q12",
+          "text": "Are you using agent evaluations?"
+        }
+      ]
+    },
+    {
+      "title": "Integrations & Workflow Automation",
+      "questions": [
+        {
+          "id": "q13",
+          "text": "Is Connect integrated with CRM, ticketing, WFM, or internal systems?"
+        },
+        {
+          "id": "q14",
+          "text": "Are customer records or cases automatically updated using APIs/Lambdas?"
+        },
+        {
+          "id": "q15",
+          "text": "Is contextual data passed into contact flows (identity, case history, app session info)?"
+        },
+        {
+          "id": "q16",
+          "text": "Are automated workflows (Lambda/EventBridge/APIs) used to remove manual steps?"
+        }
+      ]
+    },
+    {
+      "title": "Reporting, Analytics & Compliance",
+      "questions": [
+        {
+          "id": "q17",
+          "text": "Do standard Connect reports meet your needs?"
+        },
+        {
+          "id": "q18",
+          "text": "Do you have the ability to review historical interactions?"
+        },
+        {
+          "id": "q19",
+          "text": "Is Lex bot performance evaluated regularly to improve containment and CX?"
+        },
+        {
+          "id": "q20",
+          "text": "Are contact flow analytics reviewed often to identify friction and optimize journeys?"
+        }
+      ]
+    }
+  ]
+}
