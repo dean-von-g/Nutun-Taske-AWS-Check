@@ -1,7 +1,18 @@
-Nutun - Amazon Connect Optimization Scorecard (Static Site)
+# Nutun - Amazon Connect Optimization Scorecard (GitHub Pages)
 
-## Scoring logic (final)
-- Each question scores from 1 to 5
-- Maximum total score = number of questions * 5
-- Utilization % = (user total score / maximum possible score) * 100
+## Important clarification
+"Static" here means: no backend / no database / no server code.
+The site is still interactive because JavaScript runs in the browser.
 
+## Scoring
+- Each question is scored 1..5
+- Max score = questions * 5
+- Utilization % = (your total / max) * 100
+
+## Deploy
+Upload these files to your repo root:
+- index.html
+- styles.css
+- app.js
+
+Enable GitHub Pages on main / root.
